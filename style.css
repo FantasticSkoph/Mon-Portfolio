@@ -1,3 +1,29 @@
 h1, h2{
     font-family: 'Inknut Antiqua', serif;
 }
+nav{
+    background-color: #D9D9D9;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+nav a{
+    font-family: 'Inknut Antiqua', serif;
+    color: black;
+    text-decoration: none;
+    margin: 0 15px;
+}
+nav, .navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
