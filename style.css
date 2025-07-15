@@ -14,10 +14,11 @@ body{
 }
 nav{
     background-color: #D9D9D9;
-    color: black;
-    padding: 10px;
+    display: flex;
     text-align: center;
     text-decoration: none;
+    justify-content: space-evenly;
+    padding: 1rem;
 }
 nav .a{
     font-family: 'Inknut Antiqua', serif;
@@ -25,34 +26,31 @@ nav .a{
     text-decoration: none;
     margin: 0 15px;
 }
-nav, .navbar{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 .nav-container{
-    max-width: 1200px;
     margin: 0 auto;
     padding: 0 2rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color: black;
 }
 a, .navigation{
     font-family: 'Inknut Antiqua', serif;
     color: white;
     text-decoration: none;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 10rem;
-    font-family: 'inknut Antiqua', serif;
+    justify-content: space-evenly;
     font-size: 26px;
 }
 .ornament{
-    width:20rem;
     display:flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    flex-wrap: wrap;
+}
+.logo{
+    width: 15rem;
+    display:flex;
+    flex-wrap: wrap;
+}
+.logo-nav{
+    width: 2rem;
 }
