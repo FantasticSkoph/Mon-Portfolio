@@ -45,14 +45,17 @@ a, .navigation{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 10rem;
+    margin-top: 10rem;
+    margin-bottom: 2rem;
     font-family: 'inknut Antiqua', serif;
     font-size: 26px;
 }
-.ornament{
-    width:20rem;
-    display:flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+.nav-item {
+    display: inline-block;
+    text-align: center;
+    margin: 0 10px;
+}
+.nav-item img {
+    display: block;
+    margin: 10px auto;
 }
