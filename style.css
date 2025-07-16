@@ -24,34 +24,53 @@ nav .a{
     font-family: 'Inknut Antiqua', serif;
     color: black;
     text-decoration: none;
-    margin: 0 15px;
 }
 .nav-container{
-    margin: 0 auto;
-    padding: 0 2rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
     color: black;
 }
-a, .navigation{
+a{
     font-family: 'Inknut Antiqua', serif;
     color: white;
     text-decoration: none;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    margin-top: 10rem;
-    margin-bottom: 2rem;
+    justify-content: space-evenly;
     font-family: 'inknut Antiqua', serif;
-    font-size: 26px;
+    font-size: 14px;
+}
+.navigation{
+    font-family: 'Inknut Antiqua', serif;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-family: 'inknut Antiqua', serif;
+    font-size: 20px;
 }
 .nav-item {
     display: inline-block;
     text-align: center;
-    margin: 0 10px;
 }
-.nav-item img {
-    display: block;
-    margin: 10px auto;
+.logo-nav{
+    float: left;
+    width: 2rem;
+}
+footer{
+    background-color: #D9D9D9;
+    color: black;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-family: 'Merriweather', serif;
+}
+p{
+    margin: 0%;
+    font-size: 12px;
+    color: black;
 }
