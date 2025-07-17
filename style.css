@@ -1,11 +1,13 @@
 h1{
     font-family: 'Inknut Antiqua', serif;
     margin-top: 5rem;
+    margin-bottom: 1rem;
     font-size: 26px;
 }
 h2{
     font-family: 'Inknut Antiqua', serif;
-    margin: 5rem;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
     font-size: 26px;
 }
 body{
@@ -18,7 +20,7 @@ nav{
     text-align: center;
     text-decoration: none;
     justify-content: space-evenly;
-    padding: 1rem;
+    padding: 1%;
 }
 nav .a{
     font-family: 'Inknut Antiqua', serif;
@@ -27,7 +29,6 @@ nav .a{
 }
 .nav-container{
     display: flex;
-    justify-content: space-between;
     align-items: center;
     color: black;
 }
@@ -38,17 +39,15 @@ a{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    font-family: 'inknut Antiqua', serif;
     font-size: 14px;
 }
 .navigation{
-    font-family: 'Inknut Antiqua', serif;
+    font-family: 'Merriweather', serif;
     color: white;
     text-decoration: none;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    font-family: 'inknut Antiqua', serif;
     font-size: 20px;
 }
 .nav-item {
@@ -57,7 +56,7 @@ a{
 }
 .logo-nav{
     float: left;
-    width: 2rem;
+    width: 1%;
 }
 footer{
     background-color: #D9D9D9;
@@ -73,4 +72,5 @@ p{
     margin: 0%;
     font-size: 12px;
     color: black;
+    font-family: 'merriweather', serif;
 }
