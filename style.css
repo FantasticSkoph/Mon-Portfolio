@@ -2,13 +2,13 @@ h1{
     font-family: 'Inknut Antiqua', serif;
     margin-top: 5rem;
     margin-bottom: 1rem;
-    font-size: 26px;
+    font-size: 2rem;
 }
 h2{
     font-family: 'Inknut Antiqua', serif;
     margin-top: 3%;
     margin-bottom: 1rem;
-    font-size: 26px;
+    font-size: 2rem;
 }
 body{
     font-family: 'Merriweather', serif;
@@ -48,7 +48,7 @@ a{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    font-size: 20px;
+    font-size: 130%;
 }
 .nav-item {
     display: inline-block;
@@ -70,8 +70,7 @@ footer{
     font-family: 'Merriweather', serif;
 }
 p{
-    margin: 0%;
-    font-size: 12px;
+    font-size: 80%;
     color: black;
-    font-family: 'merriweather', serif;
+    font-family: 'Merriweather', serif;
 }
