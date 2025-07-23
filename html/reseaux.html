@@ -19,7 +19,7 @@
 <header>
     <nav class="navbar navbar-expand-lg position-sticky top-0 z-3">
         <div class="container m-0">
-            <img src="../assets/img/skophBS.webp" alt="Logo de Skoph" class="logo-nav">
+            <img src="../assets/img/skophBS.webp" alt="Logo de Skoph" style="width: 3%; margin-right: 1%; margin-left: 1%;">
             <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -58,9 +58,7 @@
             }
         }
     </style>
-    <center>
-        <h2>Réseaux Sociaux</h2>
-    </center>
+    <h2>Réseaux Sociaux</h2>
     <center>
         <img src="../assets/img/ornementTitreReseaux.webp" class="ornement" alt="Ornement de titre">
     </center>
@@ -68,58 +66,53 @@
         <p class="text-white" style="font-size:20px; margin-bottom:4%;">Voici quelques réseaux sociaux sur lesquels vous pouvez me trouver, ainsi que mon profil GitHub.</p>
     </center>
     <!-- Columns containing the various buttons that serves as navigation -->
-    <div class="container">
-        <div class="row row-cols-12 row-cols-md-5 row-cols-lg-4 row-cols-sm-1 row-cols-xs-1">
-            <!-- BlueSky Profile -->
-            <div class="col">
-                <center>
-                    <a href="https://cara.app/fantasticskoph" aria-label="Lien vers mon profil Cara" style="font-size:120%;">BlueSky</a>
-                </center>
-                <center>
-                    <img src="../assets/img/underlineS.webp" alt="Ornement de titre" style="width:40%; margin-bottom:10%;">
-                </center>
-                <center>
-                    <a class="navigation" href="https://bsky.app/profile/fantasticskoph.bsky.social"><img src="../assets/img/bluesky.webp" alt="Logo BlueSky cliquable" class="logo" style="max-width:50%; margin-bottom: 5rem;"></a>
-                </center>
+    <div class="container-fluid project-container">
+    <div class="row justify-content-center spotlight-row g-4">
+        <!-- BlueSky -->
+        <div class="col-12 col-md-3 project-item">
+            <div class="project-content text-center">
+                <a class="navigation" href="https://bsky.app/profile/fantasticskoph.bsky.social">BlueSky</a>
+                <img src="../assets/img/underline.webp" alt="Ornement de titre" class="underline">
+                <div class="icon-wrapper">
+                    <img src="../assets/img/bluesky.webp" alt="Logo BlueSky" class="project-image" style="margin-bottom:2rem;">
+                </div>
             </div>
-            <!-- Cara Profile -->
-            <div class="col">
-                <center>
-                    <a href="https://cara.app/fantasticskoph" aria-label="Lien vers mon profil Cara" style="font-size:120%;">Cara</a>
-                </center>
-                <center>
-                    <img src="../assets/img/underlineXS.webp" alt="Ornement de titre" style="width:30%; margin-bottom:10%;">
-                </center>
-                <center>
-                    <a class="navigation" href="https://cara.app/fantasticskoph"><img src="../assets/img/cara.webp" alt="Logo Cara cliquable" class="logo" style="max-width:50%; margin-bottom: 5rem;"></a>
-                </center>
+        </div>
+
+        <!-- Cara -->
+        <div class="col-12 col-md-3 project-item">
+            <div class="project-content text-center">
+                <a class="navigation" href="https://cara.app/fantasticskoph">Cara</a>
+                <img src="../assets/img/underline.webp" alt="Ornement de titre" class="underline">
+                <div class="icon-wrapper">
+                    <img src="../assets/img/cara.webp" alt="Logo Cara" class="project-image" style="margin-bottom:2rem;">
+                </div>
             </div>
-            <!-- LinkedIn Profile -->
-            <div class="col">
-                <center>
-                    <a href="https://cara.app/fantasticskoph" aria-label="Lien vers mon profil Cara" style="font-size:120%;">LinkedIn</a>
-                </center>
-                <center>
-                    <img src="../assets/img/underlineS.webp" alt="Ornement de titre" style="width:40%; margin-bottom:10%;">
-                </center>
-                <center>
-                    <a class="navigation" href="https://www.linkedin.com/in/eve-cauvin-9275ab316/"><img src="../assets/img/linkedin.webp" alt="Logo LinkedIn cliquable" class="logo" style="max-width:50%; margin-bottom: 5rem;"></a>
-                </center>
+        </div>
+
+        <!-- LinkedIn -->
+        <div class="col-12 col-md-3 project-item">
+            <div class="project-content text-center">
+                <a class="navigation" href="https://www.linkedin.com/in/eve-cauvin-9275ab316/">LinkedIn</a>
+                <img src="../assets/img/underline.webp" alt="Ornement de titre" class="underline">
+                <div class="icon-wrapper">
+                    <img src="../assets/img/linkedin.webp" alt="Logo LinkedIn" class="project-image" style="margin-bottom:2rem;">
+                </div>
             </div>
-            <!-- GitHub Profile -->
-            <div class="col">
-                <center>
-                    <a href="https://cara.app/fantasticskoph" aria-label="Lien vers mon profil Cara" style="font-size:120%;">GitHub</a>
-                </center>
-                <center>
-                    <img src="../assets/img/underlineS.webp" alt="Ornement de titre" style="width:40%; margin-bottom:10%;">
-                </center>
-                <center>
-                    <a class="navigation" href="https://github.com/FantasticSkoph"><img src="../assets/img/github.webp" alt="Logo GitHub cliquable" class="logo" style="max-width:50%; margin-bottom: 5rem;"></a>
-                </center>
+        </div>
+
+        <!-- GitHub -->
+        <div class="col-12 col-md-3 project-item">
+            <div class="project-content text-center">
+                <a class="navigation" href="https://github.com/FantasticSkoph">GitHub</a>
+                <img src="../assets/img/underline.webp" alt="Ornement de titre" class="underline">
+                <div class="icon-wrapper">
+                    <img src="../assets/img/github.webp" alt="Logo GitHub" class="project-image" style="margin-bottom:2rem;">
+                </div>
             </div>
         </div>
     </div>
+</div>
     <!-- Bootstrap Script -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 </body>
