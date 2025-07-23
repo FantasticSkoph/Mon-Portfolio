@@ -58,34 +58,51 @@
             }
         }
     </style>
-    <center><h2>Passions</h2></center>
-    <center><img src="../assets/img/ornementTitrePassions.webp" alt="Ornement de titre" style="width:8%; margin-bottom: 2%;"></center>
-    <center><p class="text-white" style="font-size:20px; margin-bottom:4%;">Quelques passions qui me motivent et me poussent à développer ma créativité.</p></center>
+    <center>
+        <h2>Passions</h2>
+    </center>
+    <center>
+        <img src="../assets/img/ornementTitrePassions.webp" class="ornement" alt="Ornement de titre">
+    </center>
+    <center>
+        <p class="text-white" style="font-size:20px; margin-bottom:4%;">Quelques passions qui me motivent et me poussent à développer ma créativité.</p>
+    </center>
     <!-- Columns containing the various buttons that serves as navigation -->
-    <div class="container fluid">
-        <div class="row row-cols-5 row-cols-md-1 row-cols-lg-5 row-cols-sm-1" style="margin-bottom: 5%;">
-            <!-- Video Games Page -->
-            <div class="col">
-                <center><a class="navigation" href="passion1.html">Jeux Vidéos</a></center>
-                <center><img src="../assets/img/underline.webp" alt="Ornement de titre" style="width:60%; margin-bottom:10%;"></center>
-                <center><a class="navigation" href="passion1.html"><img src="../assets/img/manette.webp" alt="Ornement de titre" style="max-width:100%; margin-bottom: 5rem;"></a></center>
+<div class="container-fluid project-container">
+    <div class="row justify-content-around align-items-center">
+        <!-- Webcomic Page -->
+        <div class="col-12 col-md-3 project-item">
+            <div class="project-content">
+                <a class="navigation" href="passion1.html" aria-label="Lien vers la page passion 'Jeux Vidéos'">Jeux Vidéos</a>
+                <img src="../assets/img/underline.webp" alt="Ornement de titre" class="underline">
+                <a class="navigation" href="passion1.html">
+                    <img src="../assets/img/manette.webp" alt="Ornement de titre" class="project-image">
+                </a>
             </div>
-            <div class="col"></div>
-            <!-- Dragons Page -->
-            <div class="col">
-                <center><a class="navigation" href="passion1.html">Dragons</a></center>
-                <center><img src="../assets/img/underlineS.webp" alt="Ornement de titre" style="width:25%;"></center>
-                <center><a class="navigation" href="passion2.html"><img src="../assets/img/dragon.webp" alt="Ornement de titre" style="max-width:100%; margin-bottom: 5rem;"></a></center>
+        </div>
+        <!-- Resume Page -->
+        <div class="col-12 col-md-3 project-item">
+            <div class="project-content">
+                <a class="navigation" href="https://fantasticskoph.github.io/mon-cv/" aria-label="Lien vers la page passion 'Dragons'">Dragons</a>
+                <img src="../assets/img/underlineS.webp" alt="Ornement de titre" class="underline">
+                <a class="navigation" href="passion2.html">
+                    <img src="../assets/img/dragon.webp" alt="Ornement de titre" class="project-image">
+                </a>
             </div>
-            <div class="col"></div>
-            <!-- Roleplay Games Page -->
-            <div class="col">
-                <center><a class="navigation" href="passion1.html">Jeux de Rôle</a></center>
-                <center><img src="../assets/img/underline.webp" alt="Ornement de titre" style="width:40%;"></center>
-                <center><a class="navigation" href="passion3.html"><img src="../assets/img/d20.webp" alt="Ornement de titre" style="max-width:80%; margin-bottom: 3rem;"></a></center>
+        </div>
+
+        <!-- Collectif Project Page -->
+        <div class="col-12 col-md-3 project-item">
+            <div class="project-content">
+                <a class="navigation" href="passion3.html" aria-label="Lien vers la page passion 'Jeux de Rôle'">Jeux de Rôle</a>
+                <img src="../assets/img/underline.webp" alt="Ornement de titre" class="underline">
+                <a class="navigation" href="">
+                    <img src="../assets/img/d20.webp" alt="Ornement de titre" class="project-image" style="max-width:75%;">
+                </a>
             </div>
         </div>
     </div>
+</div>
     <!-- Bootstrap Script -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 </body>

@@ -60,34 +60,51 @@
             }
         }
     </style>
-    <center><h2>Projets</h2></center>
-    <center><img src="../assets/img/ornementTitreProjets.webp" alt="Ornement de titre" style="width:7%; margin-bottom: 2%;"></center>
-    <center><p class="text-white" style="font-size:20px; margin-bottom:3%;">Quelques projets que j'ai déjà réalisé et/ou sur lesquels je travaille encore.</p></center>
+    <center>
+        <h2>Projets</h2>
+    </center>
+    <center>
+        <img src="../assets/img/ornementTitreProjets.webp" class="ornement" alt="Ornement de titre">
+    </center>
+    <center>
+        <p class="text-white" style="font-size:20px; margin-bottom:3%;">Quelques projets que j'ai déjà réalisé et/ou sur lesquels je travaille encore.</p>
+    </center>
     <!-- Columns containing the various buttons that serves as navigation -->
-    <div class="container fluid">
-            <div class="row row-cols-5 row-cols-md-1 row-cols-lg-5 row-cols-sm-1">
-                <!-- Webcomic Page -->
-                <div class="col">
-                    <center><a class="navigation" href="https://fantasticskoph.github.io/L-Ere_des_Cendres/" aria-label="Lien vers la BD en ligne l'Ere des Cendres">L'Ère des Cendres</a></center>
-                    <center><img src="../assets/img/underline.webp" alt="Ornement de titre" style="width:100%;"></center>
-                    <center><a class="navigation" href="https://fantasticskoph.github.io/L-Ere_des_Cendres/"><img src="../assets/img/squareEdC.webp" alt="Ornement de titre" style="max-width:100%; margin-bottom: 5rem;"></a></center>
-                </div>
-                <div class="col"></div>
-                <!-- Resume Page -->
-                <div class="col">
-                    <center><a class="navigation" href="https://fantasticskoph.github.io/mon-cv/" aria-label="Lien vers le CV">Mon CV</a></center>
-                    <center><img src="../assets/img/underlineS.webp" alt="Ornement de titre" style="width:50%;"></center>
-                    <center><a class="navigation" href="https://fantasticskoph.github.io/mon-cv/"><img src="../assets/img/squareCV.webp" alt="Ornement de titre" style="max-width:100%; margin-bottom: 5rem;"></a></center>
-                </div>
-                <div class="col"></div>
-                <!-- Collectif Project Page -->
-                <div class="col">
-                    <center><a class="navigation" href="https://fantasticskoph.github.io/Projet-Collectif---Reseaux-Sociaux/" aria-label="Lien vers le site de la prévention contre les réseaux sociaux" style="margin:-1rem;">Les Dangers des Réseaux Sociaux</a></center>
-                    <center><img src="../assets/img/underline.webp" alt="Ornement de titre" style="width:100%;"></center>
-                    <center><a class="navigation" href="https://fantasticskoph.github.io/Projet-Collectif---Reseaux-Sociaux/"><img src="../assets/img/squareDDRS.webp" alt="Ornement de titre" style="max-width:100%; margin-bottom: 4rem;"></a></center>
-                </div>
+<div class="container-fluid project-container">
+    <div class="row justify-content-around align-items-center">
+        <!-- Webcomic Page -->
+        <div class="col-12 col-md-3 project-item">
+            <div class="project-content">
+                <a class="navigation" href="https://fantasticskoph.github.io/L-Ere_des_Cendres/" aria-label="Lien vers la BD en ligne l'Ere des Cendres">L'Ère des Cendres</a>
+                <img src="../assets/img/underline.webp" alt="Ornement de titre" class="underline">
+                <a class="navigation" href="https://fantasticskoph.github.io/L-Ere_des_Cendres/">
+                    <img src="../assets/img/squareEdC.webp" alt="Ornement de titre" class="project-image">
+                </a>
             </div>
+        </div>
+        <!-- Resume Page -->
+        <div class="col-12 col-md-3 project-item">
+            <div class="project-content">
+                <a class="navigation" href="https://fantasticskoph.github.io/mon-cv/" aria-label="Lien vers le CV">Mon CV</a>
+                <img src="../assets/img/underlineS.webp" alt="Ornement de titre" class="underline">
+                <a class="navigation" href="https://fantasticskoph.github.io/mon-cv/">
+                    <img src="../assets/img/squareCV.webp" alt="Ornement de titre" class="project-image">
+                </a>
+            </div>
+        </div>
+
+        <!-- Collectif Project Page -->
+        <div class="col-12 col-md-3 project-item">
+            <div class="project-content">
+                <a class="navigation" href="https://fantasticskoph.github.io/Projet-Collectif---Reseaux-Sociaux/" aria-label="Lien vers le site de la prévention contre les réseaux sociaux">Les Dangers des Réseaux Sociaux</a>
+                <img src="../assets/img/underline.webp" alt="Ornement de titre" class="underline">
+                <a class="navigation" href="https://fantasticskoph.github.io/Projet-Collectif---Reseaux-Sociaux/">
+                    <img src="../assets/img/squareDDRS.webp" alt="Ornement de titre" class="project-image">
+                </a>
+            </div>
+        </div>
     </div>
+</div>
     <!-- Bootstrap Script -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 </body>
