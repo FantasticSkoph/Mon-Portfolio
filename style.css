@@ -176,12 +176,6 @@ p{
     display: flex;
     justify-content: center;
 }
-.contrast{
-    color: #FFFFFF;
-    font-family: 'merriweather', serif;
-    font-size: medium;
-    text-align: center;
-}
 .passion1{
-    width:20rem;
+    width:100%;
 }
