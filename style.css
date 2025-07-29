@@ -23,6 +23,7 @@ body{
     color: #FFFFFF;
 }
 nav{
+    position: sticky;
     background-color: #D9D9D9;
     display: flex;
     text-align: center;
@@ -35,10 +36,10 @@ nav .a{
     text-decoration: none;
 }
 .nav-container{
+    position: sticky;
     display: flex;
     align-items: center;
     color: #000000;
-    position:sticky;
 }
 a{
     font-family: 'Inknut Antiqua', serif;
