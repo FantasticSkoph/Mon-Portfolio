@@ -17,7 +17,7 @@
 </head>
 <!-- Navbar with burger menu -->
 <header>
-    <nav class="navbar navbar-expand-lg bg-light position-sticky top-0 z-3">
+    <nav class="navbar navbar-expand-lg position-sticky top-0 z-3">
         <div class="container m-0">
             <img src="../assets/img/skophBS.webp" alt="Logo de Skoph" style="width: 3%; margin-right: 1%; margin-left: 1%;">
             <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
@@ -35,11 +35,10 @@
                         <a class="nav-link" href="passions.html">Passions</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Réseaux Sociaux</a>
+                        <a class="nav-link" href="reseaux.html">Réseaux Sociaux</a>
                     </li>
 </header>
-<!-- Navbar with burger menu -->
-<!-- Black background with a transparent spotlight background image included -->
+<!-- Responsive background -->
 <body class="bg-black">
     <style>
         body{
@@ -59,34 +58,65 @@
             }
         }
     </style>
-    <center><h2>Réseaux Sociaux</h2></center>
-    <!--  -->
-    <center><img src="../assets/img/ornementTitreReseaux.webp" alt="Ornement de titre" style="width:16%; margin-bottom: 4%;"></center>
-    <center><p class="text-white" style="font-size:20px; margin-bottom:7%;">Voici quelques réseaux sociaux sur lesquels vous pouvez me trouver, ainsi que mon profil GitHub.</p></center>
-    <div class="container">
-        <div class="row row-cols-4 row-cols-md-1 row-cols-lg-4 row-cols-sm-1">
-            <div class="col">
-                <a href="https://cara.app/fantasticskoph" aria-label="Lien vers mon profil Cara" style="font-size:120%;">BlueSky</a>
-                <center><img src="../assets/img/underlineS.webp" alt="Ornement de titre" style="width:40%; margin-bottom:10%;"></center>
-                <a class="navigation" href="https://bsky.app/profile/fantasticskoph.bsky.social"><img src="../assets/img/bluesky.webp" alt="Logo BlueSky cliquable" class="logo" style="max-width:50%"></a>
-            </div>
-            <div class="col">
-                <a href="https://cara.app/fantasticskoph" aria-label="Lien vers mon profil Cara" style="font-size:120%;">Cara</a>
-                <center><img src="../assets/img/underlineXS.webp" alt="Ornement de titre" style="width:30%; margin-bottom:10%;"></center>
-                <a class="navigation" href="https://cara.app/fantasticskoph"><img src="../assets/img/cara.webp" alt="Logo Cara cliquable" class="logo" style="max-width:50%"></a>
-            </div>
-            <div class="col">
-                <a href="https://cara.app/fantasticskoph" aria-label="Lien vers mon profil Cara" style="font-size:120%;">LinkedIn</a>
-                <center><img src="../assets/img/underlineS.webp" alt="Ornement de titre" style="width:40%; margin-bottom:10%;"></center>
-                <a class="navigation" href="https://www.linkedin.com/in/eve-cauvin-9275ab316/"><img src="../assets/img/linkedin.webp" alt="Logo LinkedIn cliquable" class="logo" style="max-width:50%"></a>
-            </div>
-            <div class="col">
-                <a href="https://cara.app/fantasticskoph" aria-label="Lien vers mon profil Cara" style="font-size:120%;">GitHub</a>
-                <center><img src="../assets/img/underlineS.webp" alt="Ornement de titre" style="width:40%; margin-bottom:10%;"></center>
-                <a class="navigation" href="https://github.com/FantasticSkoph"><img src="../assets/img/github.webp" alt="Logo GitHub cliquable" class="logo" style="max-width:50%"></a>
+    <h1>Réseaux Sociaux</h1>
+    <div class="row justify-content-center spotlight-row">
+        <div class="col-12 col-lg-5 col-md-5 project-item">
+            <div class="project-content text-center justify-content-center">
+                <img src="../assets/img/ornementTitreReseaux.webp" class="ornement mx-auto d-block" alt="Ornement de titre">
             </div>
         </div>
     </div>
+    <p class="text-white text-center" style="font-size:20px; margin-bottom:4%;">Voici quelques réseaux sociaux sur lesquels vous pouvez me trouver, ainsi que mon profil GitHub.</p>
+    <!-- Columns containing the various buttons that serves as navigation -->
+    <div class="container project-container">
+    <div class="row justify-content-center spotlight-row g-4">
+        <!-- BlueSky -->
+        <div class="col-12 col-lg-3 col-md-3 project-item">
+            <div class="project-content text-center justify-content-center">
+                <a class="navigation" href="https://bsky.app/profile/fantasticskoph.bsky.social" target="_blank">BlueSky</a>
+                <img src="../assets/img/underline.webp" alt="Ornement du premier bouton" class="underline mx-auto d-block">
+                <div class="icon-wrapper">
+                    <a class="navigation" href="https://bsky.app/profile/fantasticskoph.bsky.social" target="_blank"><img src="../assets/img/bluesky.webp" alt="Logo BlueSky" class="project-image mx-auto d-block" style="margin-bottom:3rem;"></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Cara -->
+        <div class="col-12 col-lg-3 col-md-3 project-item">
+            <div class="project-content text-center">
+                <a class="navigation" href="https://cara.app/fantasticskoph" target="_blank">Cara</a>
+                <img src="../assets/img/underline.webp" alt="Ornement du deuxième bouton" class="underline mx-auto d-block">
+                <div class="icon-wrapper">
+                    <a class="navigation" href="https://cara.app/fantasticskoph" target="_blank"><img src="../assets/img/cara.webp" alt="Logo Cara" class="project-image mx-auto d-block" style="margin-bottom:3rem;"></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- LinkedIn -->
+        <div class="col-12 col-lg-3 col-md-3 project-item">
+            <div class="project-content text-center">
+                <a class="navigation" href="https://www.linkedin.com/in/eve-cauvin-9275ab316/" target="_blank">LinkedIn</a>
+                <img src="../assets/img/underline.webp" alt="Ornement du troisième bouton" class="underline mx-auto d-block">
+                <div class="icon-wrapper">
+                    <a class="navigation" href="https://www.linkedin.com/in/eve-cauvin-9275ab316/" target="_blank"><img src="../assets/img/linkedin.webp" alt="Logo LinkedIn" class="project-image mx-auto d-block" style="margin-bottom:3rem;"></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- GitHub -->
+        <div class="col-12 col-lg-3 col-md-3 project-item">
+            <div class="project-content text-center">
+                <a class="navigation" href="https://github.com/FantasticSkoph" target="_blank">GitHub</a>
+                <img src="../assets/img/underline.webp" alt="Ornement du quatrième bouton" class="underline mx-auto d-block">
+                <div class="icon-wrapper">
+                    <a class="navigation" href="https://github.com/FantasticSkoph" target="_blank"><img src="../assets/img/github.webp" alt="Logo GitHub" class="project-image mx-auto d-block" style="margin-bottom:3rem;"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <!-- Bootstrap Script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 </body>
 <footer>
     <p class="text-black text-center">©2025 - CAUVIN Eve. Tous droits réservés.</p>

@@ -13,10 +13,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/x-icon" href="/assets/img/skoph.webp">
+    <link rel="icon" type="image/x-icon" href="../assets/img/skoph.webp">
 </head>
+<!-- Navbar with burger menu -->
 <header>
-    <nav class="navbar navbar-expand-lg bg-light position-sticky top-0 z-3">
+    <nav class="navbar navbar-expand-lg position-sticky top-0 z-3">
         <div class="container m-0">
             <img src="../assets/img/skophBS.webp" alt="Logo de Skoph" style="width: 3%; margin-right: 1%; margin-left: 1%;">
             <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
@@ -31,12 +32,13 @@
                         <a class="nav-link" href="projets.html">Projets</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Passions</a>
+                        <a class="nav-link" href="passions.html">Passions</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="reseaux.html">Réseaux Sociaux</a>
                     </li>
 </header>
+<!-- Responsive background -->
 <body class="bg-black">
     <style>
         body{
@@ -46,30 +48,61 @@
             background-size: cover;
             background-position: center;
         }
+        @media (max-width: 768px) {
+            body {
+                background-image: url(../assets/img/spotlightMobileProjets.webp);
+                background-repeat:no-repeat;
+                background-attachment: fixed;
+                background-size: cover;
+                background-position: center;
+            }
+        }
     </style>
-    <center><h2>Passions</h2></center>
-    <center><img src="../assets/img/ornementTitrePassions.webp" alt="Ornement de titre" style="width:8%; margin-bottom: 2%;"></center>
-    <center><p class="text-white" style="font-size:20px; margin-bottom:4%;">Quelques passions qui me motivent et me poussent à développer ma créativité.</p></center>
-    <div class="container">
-        <div class="row row-cols-3 row-cols-md-2 row-cols-lg-3 row-cols-sm-1" style="margin-bottom: 5%;">
-            <div class="col">
-                <a class="navigation" href="passion1.html">Jeux Vidéos</a>
-                <center><img src="../assets/img/underline.webp" alt="Ornement de titre" style="width:40%; margin-bottom:10%;"></center>
-                <center><a class="navigation" href="passion1.html"><img src="../assets/img/manette.webp" alt="Ornement de titre" style="max-width:50%;"></a></center>
+    <h1>Passions</h1>
+        <div class="row justify-content-center spotlight-row">
+            <div class="col-12 col-lg-3 col-md-3 project-item">
+                <div class="project-content text-center justify-content-center">
+                    <img src="../assets/img/ornementTitrePassions.webp" class="ornement mx-auto d-block" alt="Ornement de titre">
+                </div>
             </div>
-            <div class="col">
-                <a class="navigation" href="passion1.html">Dragons</a>
-                <center><img src="../assets/img/underlineS.webp" alt="Ornement de titre" style="width:25%;"></center>
-                <center><a class="navigation" href="passion2.html"><img src="../assets/img/dragon.webp" alt="Ornement de titre" style="max-width:50%;"></a></center>
+        </div>
+        <p class="text-white text-center" style="font-size:20px; margin-bottom:4%;">Quelques passions qui me motivent et me poussent à développer ma créativité.</p>
+    <!-- Columns containing the various buttons that serves as navigation -->
+<div class="container-fluid project-container">
+    <div class="row justify-content-around align-items-center">
+        <!-- Video Games Page -->
+        <div class="col-12 col-md-3 col-sm-1 project-item">
+            <div class="project-content">
+                <a class="navigation" href="passion1.html" aria-label="Lien vers la page passion 'Jeux Vidéos'">Jeux Vidéos</a>
+                <img src="../assets/img/underline.webp" alt="Ornement du premier bouton" class="underline mx-auto d-block">
+                    <a class="navigation" href="passion1.html" aria-label="Image bouton de la page 'Jeux Vidéos'"><img src="../assets/img/manette.webp" alt="Ornement de titre" class="project-image mx-auto d-block" style="max-width:60%; margin-bottom:2rem;"></a>
+                </a>
             </div>
-            <div class="col">
-                <a class="navigation" href="passion1.html">Jeux de Rôle</a>
-                <center><img src="../assets/img/underline.webp" alt="Ornement de titre" style="width:40%;"></center>
-                <center><a class="navigation" href="passion3.html"><img src="../assets/img/d20.webp" alt="Ornement de titre" style="max-width:40%;"></a></center>
+        </div>
+        <!-- Creation Page -->
+        <div class="col-12 col-md-3 project-item">
+            <div class="project-content">
+                <a class="navigation" href="passion2.html" aria-label="Lien vers la page passion 'Création'">Création</a>
+                <img src="../assets/img/underline.webp" alt="Ornement du deuxième bouton" class="underline mx-auto d-block">
+                <a class="navigation" href="passion2.html" aria-label="Image bouton de la page 'Création'"><img src="../assets/img/dragon.webp" alt="Ornement de titre" class="project-image mx-auto d-block" style="max-width:60%; margin-bottom:2rem;"></a>
+                </a>
+            </div>
+        </div>
+
+        <!-- Tabletop Roleplay Games Page -->
+        <div class="col-12 col-md-3 project-item">
+            <div class="project-content">
+                <a class="navigation" href="passion3.html" aria-label="Lien vers la page passion 'Jeux de Rôle'">Jeux de Rôle</a>
+                <img src="../assets/img/underline.webp" alt="Ornement du troisième bouton" class="underline mx-auto d-block">
+                <a class="navigation" href="passion3.html" aria-label="Image bouton de la page 'Jeux de Rôle'"><img src="../assets/img/d20.webp" alt="Ornement de titre" class="project-image mx-auto d-block" style="max-width:50%; margin-bottom:2rem;"></a>
             </div>
         </div>
     </div>
+</div>
+    <!-- Bootstrap Script -->
+</body>
 <footer>
     <p class="text-black text-center">©2025 - CAUVIN Eve. Tous droits réservés.</p>
 </footer>
-</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+</html>
