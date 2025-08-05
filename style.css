@@ -44,6 +44,7 @@ a{
 .navigation{
     font-family: 'Merriweather', serif;
     color: white;
+    top:0;
     text-decoration: none;
     display: flex;
     flex-direction: row;
